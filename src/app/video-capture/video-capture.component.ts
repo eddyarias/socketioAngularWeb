@@ -35,6 +35,7 @@ export class VideoCaptureComponent implements OnInit, OnDestroy {
         console.log("Contexto 2D inicializado correctamente");
       }
   
+      
       this.connectSocket();
       this.startVideoStream();
     }
