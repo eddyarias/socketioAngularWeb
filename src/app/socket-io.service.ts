@@ -7,7 +7,7 @@ import { Observable, fromEvent, BehaviorSubject } from 'rxjs';
 })
 export class SocketIoService {
   private socket!: Socket;
-  private serverUrl = 'http://13.61.22.179:5000'; 
+  private serverUrl = 'http://13.48.147.225:5000'; 
   private reconnectAttempts = 0;
   private maxReconnectAttempts = 5;
   private reconnectInterval = 2000; // 2 segundos
